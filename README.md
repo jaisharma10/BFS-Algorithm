@@ -20,15 +20,15 @@ Implement Breath First Search [BFS] algorithm on an empty 10 x 10 map between a 
 
 ## Empty Map Results 
 
-Start Node:(1,1) --> Goal Node:(5,5) |  Start Node:(7,9) --> Goal Node:(1,2)
-:-------------------------:|:-------------------------:
-<img src = "Images/1,1 to 5,5.PNG" width = "400">  |  <img src = "Images/7,9 to 1,2.PNG" width = "400">
+Start Node:(1,1) --> Goal Node:(5,5) |  Start Node:(7,9) --> Goal Node:(1,2)| Start Node:(6,6) --> Goal Node:(10,10)
+:-------------------------:|:-------------------------:|:-------------------------:
+<img src = "Images/1,1 to 5,5.PNG" width = "250">  |  <img src = "Images/7,9 to 1,2.PNG" width = "250">| <img src = "Images/66_1010.PNG" width = "250">
 
 ## Obstacle Map Results 
 
-Map 1: (1,10) --> (10,1)   |  Map 2: (1,10) --> (10,1)
+Map 1: (1,10) --> (10,1)   |  Map 2: (1,10) --> (10,1) 
 :-------------------------:|:-------------------------:
-<img src = "Images/obsMap1.PNG" width = "400">  |  <img src = "Images/obsMap2.PNG" width = "400">
+<img src = "Images/obsMap1.PNG" width = "350">  |  <img src = "Images/obsMap2.PNG" width = "350">
 
 ## Support
 For any questions, email me at jaisharm@umd.edu
