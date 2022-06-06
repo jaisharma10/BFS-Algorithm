@@ -18,6 +18,16 @@ Implement Breath First Search [BFS] algorithm on an empty 10 x 10 map between a 
         Up --> Right --> Down --> Left
 </p>
 
+## Breath First Search 
+
+### Tree Exploration Sequence: 
+
+BFS is a graph traversing algorithm. The traversal occurs layerwise, the neighbour nodes are visited first. The queue works on the FIFO model. The breathwise exploration is shown in the illustration below: 
+
+<p align="center">
+        <img src = "https://upload.wikimedia.org/wikipedia/commons/5/5d/Breadth-First-Search-Algorithm.gif" width = "210">
+</p>
+
 ## Empty Map Results 
 
 Start Node:(1,1) --> Goal Node:(5,5) |  Start Node:(7,9) --> Goal Node:(1,2)| Start Node:(6,6) --> Goal Node:(10,10)
@@ -29,6 +39,17 @@ Start Node:(1,1) --> Goal Node:(5,5) |  Start Node:(7,9) --> Goal Node:(1,2)| St
 Map 1: (1,10) --> (10,1)   |  Map 2: (1,10) --> (10,1) 
 :-------------------------:|:-------------------------:
 <img src = "Images/obsMap1.PNG" width = "350">  |  <img src = "Images/obsMap2.PNG" width = "350">
+
+## Maze Map Results
+
+<p align="center">
+        Start Node:(1,1) --> Goal Node:(16,1)
+</p>
+
+<p align="center">
+       <img src = "Images/bfs_maze.PNG" width = "600">
+</p>
+
 
 ## Support
 For any questions, email me at jaisharm@umd.edu
