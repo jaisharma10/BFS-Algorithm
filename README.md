@@ -2,10 +2,11 @@
 
 ### Task:
 
-Implement Breath First Search [BFS] algorithm on an empty 10 x 10 map between a given start and goal node. The repository contains 2 files:
+Implement Breath First Search [BFS] algorithm on a map between a given start and goal node. The repository contains 3 files:
 
-- **BFS_emptyMap.py** - The map is empty. The script finds BFS generated path between the two nodes.
-- **BFS_obsMap.py** - The map has obstacles. The script finds the BFS generated path between the two nodes while avoiding obstacle space. There algorithm can be mplemented on two maps.  Set the variable 'mapNumber' to 1 or to 2 in the main function to switch between maps.
+- **BFS_emptyMap.py** - The 10 x 10 map is empty. The script finds BFS generated path between two nodes.
+- **BFS_obsMap.py** - The 10 x 10 map has obstacles. The script finds the BFS generated path between the two nodes while avoiding obstacle space. There algorithm can be mplemented on two maps.  Set the variable 'mapNumber' to 1 or to 2 in the main function to switch between maps.
+- **BFS_Maze.py** - Maze Map of size 16 x 8. The script finds BFS generated path between two nodes.
         
 ### Path is visualized using pygame. 
 - Start Node is Red
